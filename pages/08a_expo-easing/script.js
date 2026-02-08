@@ -49,6 +49,11 @@ fab.addEventListener("click", () => {
         x: 0,
         y: 0,
         opacity: 0,
+        scale:0.8,
+        rotate:0,
+        duration: 0.3,
+        ease: "power1.in",
+        pointerEvents: "none", // Disable interaction when collapsed
       });
     });
   }
